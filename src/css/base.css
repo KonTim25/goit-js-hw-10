@@ -25,8 +25,8 @@ body {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
 }
-main:has(.back-link) {
-  text-align: center;
-}
+
